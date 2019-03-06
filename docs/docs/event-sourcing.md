@@ -37,13 +37,13 @@ events raised. These events are used to communicate change throughout the system
 
 ## Event and Message Driven Programming
 
-Event sourcing is a style of programming that builds off event- and rmessage-driven
+Event sourcing is a style of programming that builds off event- and message-driven
 programming. In this style of programming the focus is put on communication. Because
-we're primarily modelling using messages communicating change is very easy to facilitate.
+we're primarily modelling using messages, communicating change is very easy to facilitate.
 
 ## The cost and trade-offs
 
-Coming from data-centric modelling, event sourcing is a pretty big paradigm shifts.
+Coming from data-centric modelling, event sourcing is a pretty big paradigm shift.
 It is also not a cost-free solution. Like many things in our work-field, by introducing
 event sourcing into your application you're trading one set of problems with another.
 You're also implicitly opting out of some things. Querying the current state of the
